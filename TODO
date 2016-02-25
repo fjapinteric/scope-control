@@ -1,0 +1,8 @@
+TODO
+
+2015-05-01
+The following are yet to be written into scope-control:
+* clean up convert2angle to be more general.
+* RTC/GPS Commands (need hardware for test)
+* gitify source code
+* general source code clean up

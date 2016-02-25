@@ -1,0 +1,27 @@
+0.95.2 [2015-11-28]
+	* Minor corrections to cmd_getmodel to identify unused model numbers.
+	* Added new location to celeston-set script
+
+0.95.1 [2015-05-01]
+	* first release with version number
+	* added --version, --copyright commands
+	* added slew commands.
+			syntax: --slew <fixed/variable>,<azimuth/altitude>,<±rate>
+
+no version [2015-04-21]
+	* added goto and precise-goto commands
+
+no version [2015-04-20]
+	* removed wait_on_data()
+
+no version [2015-03-21]
+	Expanded code to include all non-peripherial devices to the
+	NexStar controller.
+
+no version [2014-09-09]
+	Second attempt at scopecontrol after first version
+	got too 'general' in scope. Stripped it right down
+	to the essentials of communicating with Celestron NexStar
+	to set date/time and longitude/latitude of location. Original
+	version is included in the 'old' sub-directory.
+	
